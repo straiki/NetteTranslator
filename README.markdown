@@ -6,8 +6,7 @@ This is short manual how to use Nette Translator in the newest Nette 2.0 in its 
 No need to edit or operate with .po/.mo files required. Written 2012-02-10.
 
 
-1. Enable Translator
----------------
+### 1. Enable Translator
 
 config.neon:
 
@@ -21,8 +20,7 @@ config.neon:
 				factory: NetteTranslator\Gettext::getTranslator
 
 
-2. Add files + register panel
----------------
+### 2. Add files + register panel
 
 bootstrap.php:
 
@@ -30,8 +28,7 @@ bootstrap.php:
 	NetteTranslator\Panel::register($container, $container->translator);
 
 
-3. Use in templates
----------------
+### 3. Use in templates
 
 default.latte:
 
@@ -39,8 +36,7 @@ default.latte:
 	{_"Cat", $number} // for plural, default are Czech plurals: 1, 2-4, 5+
 
 
-4. Use in forms
----------------
+### 4. Use in forms
 
 MyPreseneter.php:	
 
