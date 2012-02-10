@@ -7,7 +7,7 @@ No need to edit or operate with .po/.mo files required. Written 2012-02-10.
 
 
 1. Enable Translator
-----
+===
 
 config.neon:
 
@@ -22,7 +22,7 @@ config.neon:
 
 
 2. Add files + register panel
-----
+***
 
 bootstrap.php:
 
