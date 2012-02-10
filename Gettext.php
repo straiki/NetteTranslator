@@ -1,6 +1,6 @@
 <?php
 /*
- * Copyright (c) 2010 Patrik Votoèek <patrik@votocek.cz>
+ * Copyright (c) 2010 Patrik VotoÄek <patrik@votocek.cz>
  *
  * Permission is hereby granted, free of charge, to any person
  * obtaining a copy of this software and associated documentation

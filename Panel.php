@@ -9,7 +9,7 @@ use Nette;
  * directly from your browser.
  *
  * @author Jan Smitka <jan@smitka.org>
- * @author Patrik Votoèek <patrik@votocek.cz>
+ * @author Patrik VotoÄek <patrik@votocek.cz>
  * @author Vaclav Vrbka <gmvasek@php-info.cz>
  */
 class Panel extends Nette\Object implements Nette\Diagnostics\IBarPanel
