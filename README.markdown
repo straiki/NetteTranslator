@@ -15,7 +15,7 @@ config.neon:
 
 	common:
 		parameters:
-			lang = cs # default language
+			lang: cs # default language
 
 		services:
 			translator:
