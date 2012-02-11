@@ -1,4 +1,4 @@
-Nette Translator (c) Vrtak-CZ (http://patrik.votocek.cz)
+Nette Translator (c) Patrik Votoček (Vrtak-CZ), 2010 (http://patrik.votocek.cz)
 
 Note
 ========
