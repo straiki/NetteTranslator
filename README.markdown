@@ -1,4 +1,4 @@
-Nette Translator (c) Patrik VotoÄek (Vrtak-CZ), 2010 (http://patrik.votocek.cz)
+Nette Translator (c) Patrik Votoèek (Vrtak-CZ), 2010 (http://patrik.votocek.cz)
 
 Note
 ========
@@ -18,19 +18,11 @@ config.neon:
 			translator:
 				factory: NetteTranslator\Gettext::getTranslator
 				setup:
-					- addFile(%appDir%/lang, front)
-					- NetteTranslator\Panel::register
+					- addFile(%appDir%/lang, front) # at leas one file required
+					- NetteTranslator\Panel::register # panel to debug bar
 
 
-### 2. Add files + register panel
-
-bootstrap.php:
-
-	$container->translator->addFile("%appDir%/lang/","main"); // at least one file required
-	NetteTranslator\Panel::register($container, $container->translator);
-
-
-### 3. Use in templates
+### 2. Use in templates
 
 default.latte:
 
@@ -38,7 +30,7 @@ default.latte:
 	{_"Cat", $number} // for plural, default are Czech plurals: 1, 2-4, 5+
 
 
-### 4. Use in forms
+### 3. Use in forms
 
 MyPreseneter.php:	
 
