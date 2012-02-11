@@ -6,6 +6,8 @@ Note
 This is short manual how to use Nette Translator in the newest Nette 2.0 in its most simple version.
 No need to edit or operate with .po/.mo files required. Written 2012-02-10.
 
+Actual info/manual: http://wiki.nette.org/cs/cookbook/zprovozneni-prekladace-nettetranslator
+
 
 ### 1. Enable Translator
 
