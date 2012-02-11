@@ -35,11 +35,11 @@ use Nette,
  * Gettext translator.
  * This solution is partitionaly based on Zend_Translate_Adapter_Gettext (c) Zend Technologies USA Inc. (http://www.zend.com), new BSD license
  *
- * @author     Roman Sklen·¯
+ * @author     Roman Sklen√°≈ô
  * @author	   Miroslav Smetana
- * @author	   Patrik VotoËek <patrik@votocek.cz>
+ * @author	   Patrik Votoƒçek <patrik@votocek.cz>
  * @author	   Vaclav Vrbka <gmvasek@php-info.cz>
- * @copyright  Copyright (c) 2009 Roman Sklen·¯ (http://romansklenar.cz)
+ * @copyright  Copyright (c) 2009 Roman Sklen√°≈ô (http://romansklenar.cz)
  * @license    New BSD License
  * @example    http://addons.nettephp.com/gettext-translator
  * @package    NetteTranslator\Gettext

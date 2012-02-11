@@ -12,12 +12,14 @@ config.neon:
 
 	common:
 		parameters:
-			langDir = %appDir%/lang # folder with lang files
-			variable.lang = cs_CZ # default language
+			lang = cs_CZ # default language
 
 		services:
 			translator:
 				factory: NetteTranslator\Gettext::getTranslator
+				setup:
+					- addFile(%appDir%/lang, front)
+					- NetteTranslator\Panel::register
 
 
 ### 2. Add files + register panel
