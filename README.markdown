@@ -1,4 +1,4 @@
-Nette Translator (c) Patrik VotoËek (Vrtak-CZ), 2010 (http://patrik.votocek.cz)
+Nette Translator (c) Patrik Votoƒçek (Vrtak-CZ), 2010 (http://patrik.votocek.cz)
 
 Note
 ========
@@ -12,7 +12,7 @@ config.neon:
 
 	common:
 		parameters:
-			lang = cs_CZ # default language
+			lang = cs # default language
 
 		services:
 			translator:
@@ -34,7 +34,7 @@ default.latte:
 
 MyPreseneter.php:	
 
-	createComponentMyForm ()
+	protected function createComponentMyForm()
 	{
 		$form = new Form;
 		// ...
